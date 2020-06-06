@@ -1,12 +1,10 @@
-<mat-card [style.backgroundColor]="'red'">
+<mat-card id="mat-card-width">
     <mat-grid-list cols="1" rowHeight="100px">
         <mat-grid-tile>
             <h1>Parralel Bible Study App</h1>
         </mat-grid-tile>
     </mat-grid-list>
-</mat-card>
-<mat-card>
-    <mat-grid-list cols="1" rowHeight="40px">
+    <mat-grid-list cols="1" rowHeight="60px">
         <mat-grid-tile>
             <h4>First Bible Version</h4>
         </mat-grid-tile>
@@ -19,6 +17,37 @@
                     </mat-option>
                 </mat-select>
             </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <h4>Second Bible Version</h4>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-form-field>
+                <mat-label>Bible Version</mat-label>
+                <mat-select>
+                    <mat-option value="niv">
+                        NIV
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <h4>Bible Passage</h4>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-form-field>
+                <mat-label>Bible Passage</mat-label>
+                <input matInput placeholder="Ex. John 3:16">
+            </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <button mat-raised-button color="primary">Submit</button>
         </mat-grid-tile>
     </mat-grid-list>
 </mat-card>
