@@ -1,0 +1,426 @@
+[
+    {
+        "version": "Afrikaans: Ou Vertaling (aov)",
+        "value": "aov"
+    },
+    {
+        "version": "Albanian: Albanian (albanian)",
+        "value": "albanian"
+    },
+    {
+        "version": "Amharic: Amharic NT (amharic)",
+        "value": "amharic"
+    },
+    {
+        "version": "Amharic: Haile Selassie Amharic Bible (hsab)",
+        "value": "hsab"
+    },
+    {
+        "version": "Arabic: Smith and Van Dyke (arabicsv)",
+        "value": "arabicsv"
+    },
+    {
+        "version": "Aramaic: Peshitta NT (peshitta)",
+        "value": "peshitta"
+    },
+    {
+        "version": "Armenian: Eastern (Genesis Exodus Gospels) (easternarmenian)",
+        "value": "easternarmenian"
+    },
+    {
+        "version": "Armenian: Western NT (westernarmenian)",
+        "value": "westernarmenian"
+    },
+    {
+        "version": "Basque: (Navarro Labourdin) NT (basque)",
+        "value": "basque"
+    },
+    {
+        "version": "Breton: Gospels (breton)",
+        "value": "breton"
+    },
+    {
+        "version": "Bulgarian: Bulgarian Bible (1940) (bulgarian1940)",
+        "value": "bulgarian1940"
+    },
+    {
+        "version": "Chamorro: (Psalms Gospels Acts) (chamorro)",
+        "value": "chamorro"
+    },
+    {
+        "version": "Chinese: NCV Simplified (cns)",
+        "value": "cns"
+    },
+    {
+        "version": "Chinese: NCV Traditional (cnt)",
+        "value": "cnt"
+    },
+    {
+        "version": "Chinese: Union Simplified (cus)",
+        "value": "cus"
+    },
+    {
+        "version": "Chinese: Union Traditional (cut)",
+        "value": "cut"
+    },
+    {
+        "version": "Coptic: Bohairic NT (bohairic)",
+        "value": "bohairic"
+    },
+    {
+        "version": "Coptic: New Testament (coptic)",
+        "value": "coptic"
+    },
+    {
+        "version": "Coptic: Sahidic NT (sahidic)",
+        "value": "sahidic"
+    },
+    {
+        "version": "Croatian: Croatian (croatia)",
+        "value": "croatia"
+    },
+    {
+        "version": "Czech: Czech BKR (bkr)",
+        "value": "bkr"
+    },
+    {
+        "version": "Czech: Czech CEP (cep)",
+        "value": "cep"
+    },
+    {
+        "version": "Czech: Czech KMS (kms)",
+        "value": "kms"
+    },
+    {
+        "version": "Czech: Czech NKB (nkb)",
+        "value": "nkb"
+    },
+    {
+        "version": "Danish: Danish (danish)",
+        "value": "danish"
+    },
+    {
+        "version": "Dutch: Dutch Staten Vertaling (statenvertaling)",
+        "value": "statenvertaling"
+    },
+    {
+        "version": "English: King James Version (kjv)",
+        "value": "kjv"
+    },
+    {
+        "version": "English: American King James Version (akjv)",
+        "value": "akjv"
+    },
+    {
+        "version": "English: American Standard Version (asv)",
+        "value": "asv"
+    },
+    {
+        "version": "English: Basic English Bible (basicenglish)",
+        "value": "basicenglish"
+    },
+    {
+        "version": "English: Douay Rheims (douayrheims)",
+        "value": "douayrheims"
+    },
+    {
+        "version": "English: Webster's Bible (wb)",
+        "value": "wb"
+    },
+    {
+        "version": "English: Weymouth NT (weymouth)",
+        "value": "weymouth"
+    },
+    {
+        "version": "English: World English Bible (web)",
+        "value": "web"
+    },
+    {
+        "version": "English: Young's Literal Translation (ylt)",
+        "value": "ylt"
+    },
+    {
+        "version": "Esperanto: Esperanto (esperanto)",
+        "value": "esperanto"
+    },
+    {
+        "version": "Estonian: Estonian (estonian)",
+        "value": "estonian"
+    },
+    {
+        "version": "Finnish: Finnish Bible (1776) (finnish1776)",
+        "value": "finnish1776"
+    },
+    {
+        "version": "Finnish: Pyha Raamattu (1933 1938) (pyharaamattu1933)",
+        "value": "pyharaamattu1933"
+    },
+    {
+        "version": "Finnish: Pyha Raamattu (1992) (pyharaamattu1992)",
+        "value": "pyharaamattu1992"
+    },
+    {
+        "version": "French: Darby (darby)",
+        "value": "darby"
+    },
+    {
+        "version": "French: Louis Segond (1910) (ls1910)",
+        "value": "ls1910"
+    },
+    {
+        "version": "French: Martin (1744) (martin)",
+        "value": "martin"
+    },
+    {
+        "version": "French: Ostervald (1996 revision) (ostervald)",
+        "value": "ostervald"
+    },
+    {
+        "version": "Georgian: Georgian (Gospels Acts James) (georgian)",
+        "value": "georgian"
+    },
+    {
+        "version": "German: Elberfelder (1871) (elberfelder)",
+        "value": "elberfelder"
+    },
+    {
+        "version": "German: Elberfelder (1905) (elberfelder1905)",
+        "value": "elberfelder1905"
+    },
+    {
+        "version": "German: Luther (1545) (luther1545)",
+        "value": "luther1545"
+    },
+    {
+        "version": "German: Luther (1912) (luther1912)",
+        "value": "luther1912"
+    },
+    {
+        "version": "German: Schlachter (1951) (schlachter)",
+        "value": "schlachter"
+    },
+    {
+        "version": "Gothic: Gothic (Nehemiah NT Portions) (gothic)",
+        "value": "gothic"
+    },
+    {
+        "version": "Greek: Greek Modern (moderngreek)",
+        "value": "moderngreek"
+    },
+    {
+        "version": "Greek: NT Byzantine Majority Text (2000) Parsed (majoritytext)",
+        "value": "majoritytext"
+    },
+    {
+        "version": "Greek: NT Byzantine Majority Text (2000) (byzantine)",
+        "value": "byzantine"
+    },
+    {
+        "version": "Greek: NT Textus Receptus (1550 1894) Parsed (textusreceptus)",
+        "value": "textusreceptus"
+    },
+    {
+        "version": "Greek: Textus Receptus (text)",
+        "value": "text"
+    },
+    {
+        "version": "Greek: NT Tischendorf 8th Ed (tischendorf)",
+        "value": "tischendorf"
+    },
+    {
+        "version": "Greek: NT Westcott Hort UBS4 variants Parsed (westcotthort)",
+        "value": "westcotthort"
+    },
+    {
+        "version": "Greek: NT Westcott Hort UBS4 variants (westcott)",
+        "value": "westcott"
+    },
+    {
+        "version": "Greek: OT LXX Accented Roots Parsing (lxxpar)",
+        "value": "lxxpar"
+    },
+    {
+        "version": "Greek: OT LXX Accented (lxx)",
+        "value": "lxx"
+    },
+    {
+        "version": "Greek: OT LXX Unaccented Roots Parsing (lxxunaccentspar)",
+        "value": "lxxunaccentspar"
+    },
+    {
+        "version": "Greek: OT LXX Unaccented (lxxunaccents)",
+        "value": "lxxunaccents"
+    },
+    {
+        "version": "Hebrew: Aleppo Codex (aleppo)",
+        "value": "aleppo"
+    },
+    {
+        "version": "Hebrew: Hebrew Modern (modernhebrew)",
+        "value": "modernhebrew"
+    },
+    {
+        "version": "Hebrew: OT BHS (Consonants Only) (bhsnovowels)",
+        "value": "bhsnovowels"
+    },
+    {
+        "version": "Hebrew: OT BHS (Consonants and Vowels) (bhs)",
+        "value": "bhs"
+    },
+    {
+        "version": "Hebrew: OT WLC (Consonants Only) (wlcnovowels)",
+        "value": "wlcnovowels"
+    },
+    {
+        "version": "Hebrew: OT WLC (Consonants and Vowels) (wlc)",
+        "value": "wlc"
+    },
+    {
+        "version": "Hebrew: OT Westminster Leningrad Codex (codex)",
+        "value": "codex"
+    },
+    {
+        "version": "Hungarian: Hungarian Karoli (karoli)",
+        "value": "karoli"
+    },
+    {
+        "version": "Italian: Giovanni Diodati Bible (1649) (giovanni)",
+        "value": "giovanni"
+    },
+    {
+        "version": "Italian: Riveduta Bible (1927) (riveduta)",
+        "value": "riveduta"
+    },
+    {
+        "version": "Kabyle: Kabyle NT (kabyle)",
+        "value": "kabyle"
+    },
+    {
+        "version": "Korean: Korean (korean)",
+        "value": "korean"
+    },
+    {
+        "version": "Latin: Nova Vulgata (newvulgate)",
+        "value": "newvulgate"
+    },
+    {
+        "version": "Latin: Vulgata Clementina (vulgate)",
+        "value": "vulgate"
+    },
+    {
+        "version": "Latvian: New Testament (latvian)",
+        "value": "latvian"
+    },
+    {
+        "version": "Lithuanian: Lithuanian (lithuanian)",
+        "value": "lithuanian"
+    },
+    {
+        "version": "Manx_Gaelic: Manx Gaelic (Esther Jonah 4 Gospels) (manxgaelic)",
+        "value": "manxgaelic"
+    },
+    {
+        "version": "Maori: Maori (maori)",
+        "value": "maori"
+    },
+    {
+        "version": "Myanmar_Burmse: Judson (1835) (judson)",
+        "value": "judson"
+    },
+    {
+        "version": "Norwegian: Det Norsk Bibelselskap (1930) (bibelselskap)",
+        "value": "bibelselskap"
+    },
+    {
+        "version": "Portuguese: Almeida Atualizada (almeida)",
+        "value": "almeida"
+    },
+    {
+        "version": "Potawatomi: Potawatomi (Matthew Acts) (Lykins 1844) (potawatomi)",
+        "value": "potawatomi"
+    },
+    {
+        "version": "Romani: Romani NT E Lashi Viasta (Gypsy) (rom)",
+        "value": "rom"
+    },
+    {
+        "version": "Romanian: Cornilescu (cornilescu)",
+        "value": "cornilescu"
+    },
+    {
+        "version": "Russian: Makarij Translation Pentateuch (1825) (makarij)",
+        "value": "makarij"
+    },
+    {
+        "version": "Russian: Synodal Translation (1876) (synodal)",
+        "value": "synodal"
+    },
+    {
+        "version": "Russian: Victor Zhuromsky NT (zhuromsky)",
+        "value": "zhuromsky"
+    },
+    {
+        "version": "Scottish_Gaelic: Scots Gaelic (Gospel of Mark) (gaelic)",
+        "value": "gaelic"
+    },
+    {
+        "version": "Spanish: Reina Valera (1909) (valera)",
+        "value": "valera"
+    },
+    {
+        "version": "Spanish: Reina Valera NT (1858) (rv1858)",
+        "value": "rv1858"
+    },
+    {
+        "version": "Spanish: Sagradas Escrituras (1569) (sse)",
+        "value": "sse"
+    },
+    {
+        "version": "Swahili: Swahili (swahili)",
+        "value": "swahili"
+    },
+    {
+        "version": "Swedish: Swedish (1917) (swedish)",
+        "value": "swedish"
+    },
+    {
+        "version": "Tagalog: Ang Dating Biblia (1905) (tagalog)",
+        "value": "tagalog"
+    },
+    {
+        "version": "Tamajaq: Tamajaq Portions (tamajaq)",
+        "value": "tamajaq"
+    },
+    {
+        "version": "Thai: Thai from kjv (thai)",
+        "value": "thai"
+    },
+    {
+        "version": "Turkish: NT (1987 1994) (tnt)",
+        "value": "tnt"
+    },
+    {
+        "version": "Turkish: Turkish (turkish)",
+        "value": "turkish"
+    },
+    {
+        "version": "Ukrainian: NT (P Kulish 1871) (ukranian)",
+        "value": "ukranian"
+    },
+    {
+        "version": "Uma: Uma NT (uma)",
+        "value": "uma"
+    },
+    {
+        "version": "Vietnamese: Vietnamese (1934) (vietnamese)",
+        "value": "vietnamese"
+    },
+    {
+        "version": "Wolof: Wolof NT (wolof)",
+        "value": "wolof"
+    },
+    {
+        "version": "Xhosa: Xhosa (xhosa)",
+        "value": "xhosa"
+    }
+]

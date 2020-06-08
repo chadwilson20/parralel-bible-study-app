@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BibleVersionsService } from '../bible-versions.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  bibleVersions;
 
-  constructor() { }
+  constructor(private bibleVersionsService: BibleVersionsService) { }
 
   ngOnInit(): void {
+    this.bibleVersions = this.bibleVersionsService.getBibleVersions();
   }
 
 }
