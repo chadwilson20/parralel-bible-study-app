@@ -10,5 +10,9 @@ export class BibleVersionsService {
     return this.http.get('/assets/bible-versions.json');
   }
 
+  getBiblePassage(bibleEndpoint: string) {
+    return this.http.get(bibleEndpoint, {responseType: 'text'});
+  }
+
   constructor(private http: HttpClient) { }
 }

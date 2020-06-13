@@ -1,55 +1,57 @@
-<mat-grid-list cols="1" rowHeight="100px">
-    <mat-grid-tile>
-        <h1>Parralel Bible Study App</h1>
-    </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list cols="1" rowHeight="60px">
-    <mat-grid-tile>
-        <h4>First Bible Version</h4>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-form-field>
-            <mat-label>Bible Version</mat-label>
-            <mat-select>
-                <span *ngFor="let version of bibleVersions | async">
-                    <mat-option [value]="version.value">
-                        {{version.version}}
-                    </mat-option>
-                </span>
-            </mat-select>
-        </mat-form-field>
-    </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
-    <mat-grid-tile>
-        <h4>Second Bible Version</h4>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-form-field>
-            <mat-label>Bible Version</mat-label>
-            <mat-select>
-                <span *ngFor="let version of bibleVersions | async">
-                    <mat-option [value]="version.value">
-                        {{version.version}}
-                    </mat-option>
-                </span>
-            </mat-select>
-        </mat-form-field>
-    </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
-    <mat-grid-tile>
-        <h4>Bible Passage</h4>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-form-field>
-            <mat-label>Bible Passage</mat-label>
-            <input matInput placeholder="Ex. John 3:16">
-        </mat-form-field>
-    </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
-    <mat-grid-tile>
-        <button mat-raised-button color="primary">Submit</button>
-    </mat-grid-tile>
-</mat-grid-list>
+<form #homeform="ngForm" (ngSubmit)="onSubmit(homeform)">
+    <mat-grid-list cols="1" rowHeight="100px">
+        <mat-grid-tile>
+            <h1>Parralel Bible Study App</h1>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px">
+        <mat-grid-tile>
+            <h4>First Bible Version</h4>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-form-field>
+                <mat-label>Bible Version</mat-label>
+                <mat-select name="firstBibleVersion" ngModel>
+                    <span *ngFor="let version of bibleVersions | async">
+                        <mat-option [value]="version.value">
+                            {{version.version}}
+                        </mat-option>
+                    </span>
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <h4>Second Bible Version</h4>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-form-field>
+                <mat-label>Bible Version</mat-label>
+                <mat-select name="secondBibleVersion" ngModel>
+                    <span *ngFor="let version of bibleVersions | async">
+                        <mat-option [value]="version.value">
+                            {{version.version}}
+                        </mat-option>
+                    </span>
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <h4>Bible Passage</h4>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-form-field>
+                <mat-label>Bible Passage</mat-label>
+                <input name="biblePassage" ngModel matInput placeholder="Ex. John 3:16">
+            </mat-form-field>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-grid-list cols="1" rowHeight="60px" class="mat-grid-list-spacing">
+        <mat-grid-tile>
+            <button type="submit" mat-raised-button color="primary">Submit</button>
+        </mat-grid-tile>
+    </mat-grid-list>
+</form>
